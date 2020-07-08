@@ -9,7 +9,7 @@ let Student = function(name,roll,grade)
   {
       return this.grade;
   }
-//when we create a new object every time this method will be created for that object which is not good for memeory management .
+when we create a new object every time this method will be created for that object which is not good for memeory management .
 //suppose we have created 100 methods in side the constructor then it will create 100 object for every new object created
 //so how we can solve this or make it more convenient while managing memory;
 }
@@ -17,7 +17,7 @@ let Student = function(name,roll,grade)
 
 let studentX=new Student('SJ Nayeem','1','3.5');
 console.dir(studentX);
-// using console.dir(studentX) we can see the getGrade method is create when we create a new object
+// using console.dir(studentX) we can see the getGrade method is created when we create a new object
 //Student {
   //  name: 'SJ Nayeem',
   //  roll: '1',
@@ -44,7 +44,7 @@ let developerX=new Developer('SJ Nayeem','Senior Software Engineer','100000')
 
 
 console.dir(developerX);
-//here the getName method is not created when wr create a new object and that's why this is more convenient while memory management 
+//here the getName method is not created when we create a new object and that's why this is more convenient while memory management 
 //Developer {
   //  name: 'SJ Nayeem',
    /// designation: 'Senior Software Engineer',
